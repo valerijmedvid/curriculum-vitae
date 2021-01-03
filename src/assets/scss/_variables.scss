@@ -1,0 +1,10 @@
+$primary: #e8e8e8;
+$secondary: #454545;
+$accent: #2e8ab8;
+
+$lighten-secondary: lighten($secondary, 22%);
+
+$breakpoints: (
+  "tablet": 800px,
+  "desktop": 1600px,
+);
