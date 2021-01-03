@@ -4,9 +4,9 @@
     <basic-info :category-name="'Kontakt'">
       <template v-slot:body>
         <ul>
-          <li>+420 725 874 185</li>
-          <li>vmedvid@gmail.com</li>
-          <li><i class="fas fa-star" />linkedin.com/in/valerijmedvid</li>
+          <li><fa icon="phone" size="1" color="lightgray" class="icons" /> +420 725 874 185</li>
+          <li><fa icon="at" size="1" color="lightgray" class="icons" /> vmedvid@gmail.com</li>
+          <li><fa icon="linkedin" size="1" color="lightgray" class="icons" /> linkedin.com/in/valerijmedvid</li>
         </ul>
       </template>
     </basic-info>
@@ -53,8 +53,10 @@ ul {
 
   li {
     padding-top: 0.6em;
-    display: flex;
-    align-items: center;
+
+    .icons {
+      margin-right: 0.6em;
+    }
   }
   li:first-child {
     padding-top: 0;

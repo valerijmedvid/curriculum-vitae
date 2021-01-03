@@ -31,8 +31,13 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
+@import "../assets/scss/_mixins.scss";
+
 article {
-  margin: 0 1em 4em 4.8em;
+  margin: 2em 1em 3em 3em;
+  @include breakpoint("tablet") {
+    margin: 0 1em 4em 4.8em;
+  }
 }
 
 header {
